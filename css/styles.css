@@ -1,0 +1,42 @@
+* {
+    font-family: sans-serif;
+  }
+  .container {
+    background-color: rgb(151, 15, 15);
+    display: block;
+    margin: auto auto;
+    border-radius: 8px;
+  }
+
+  header {
+    background-color: rgb(16, 43, 243);
+    border: 2px solid black;
+    border-radius: 8px;
+    display: block;
+    margin: auto auto 20px auto;
+  }
+
+  section,
+  .container {
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  .go {
+    text-align: center;
+  }
+
+  button,
+  input[type="submit"],
+  input[type="reset"] {
+    border-radius: 4px;
+    background-color: rgb(197, 226, 52);
+  }
+
+  body {
+    background-color: rgb(55, 52, 52);
+  }
+
+  .bolded {
+    font-weight: bold;
+  }
